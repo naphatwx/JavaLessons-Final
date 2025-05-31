@@ -12,7 +12,7 @@ public class Summary extends JFrame {
     private JScrollPane productListScroll;
     private JLabel alertLabel;
 
-    private DefaultListModel<Product> productListModel = new DefaultListModel<>();
+    private final DefaultListModel<Product> productListModel = new DefaultListModel<>();
 
     public Summary() {
         setContentPane(mainPanel);

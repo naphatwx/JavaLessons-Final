@@ -9,7 +9,7 @@ public class Home extends JFrame {
     private JButton logoutButton;
     private JScrollPane productListScroll;
 
-    private DefaultListModel<Product> productListModel = new DefaultListModel<>();
+    private final DefaultListModel<Product> productListModel = new DefaultListModel<>();
 
     public Home() {
         setContentPane(mainPanel);
